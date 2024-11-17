@@ -13,7 +13,7 @@ services:
       - db:/var/lib/mysql
 
     # backend application service
-  kadem-backend:
+  spring-boot-kaddem:
     depends_on:
       - mysqldb
     build: ./
